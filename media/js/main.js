@@ -28,20 +28,11 @@
 
 
     function assignClassToTwinkles() {
-        var classes = ['twinkle-one', 'twinkle-two'];
+        var classes = ['twinkle-one', 'twinkle-two', 'twinkle-three'];
         $('svg path').each(function() {
             $(this).attr('class', (classes[~~(Math.random() * classes.length)]));
-            
         });
     }
-
-    
-
-    
-
-    
-    
-    
 
     $(document).on('ready', function() {
         init();
