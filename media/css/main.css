@@ -143,6 +143,12 @@ svg path {
 	animation: twinkleTwoAnimate 2s ease-in-out infinite;
 }
 
+.twinkle-three {
+	-moz-animation: twinkleThreeAnimate 2.5s ease-in-out infinite;
+	-webkit-animation: twinkleThreeAnimate 2.5s ease-in-out infinite;
+	animation: twinkleThreeAnimate 2.5s ease-in-out infinite;
+}
+
 @media only screen and (min-width: 768px) {
 	.slide-1 .animals, 
 	.svg-container {
@@ -1047,4 +1053,43 @@ svg path {
 	}
 }
 
+@-moz-keyframes twinkleThreeAnimate {
+	0% {
+		opacity: .25;
+	}
+
+	50% {
+		opacity: .75;
+	}
+
+	100% {
+		opacity: .25;
+	}
+}
+@-webkit-keyframes twinkleThreeAnimate {
+	0% {
+		opacity: .25;
+	}
+
+	50% {
+		opacity: .75;
+	}
+
+	100% {
+		opacity: .25;
+	}
+}
+@keyframes twinkleThreeAnimate {
+	0% {
+		opacity: .25;
+	}
+
+	50% {
+		opacity: .75;
+	}
+
+	100% {
+		opacity: .25;
+	}
+}
 
