@@ -7,4 +7,4 @@ This is a full responsive, cross browser compatable, animation heavy site with t
 
 #### To View Project:
 * Clone repo and view in broswer.
-* [View Live](http://paigeinteractive.com/work/humaneSociety/index.html)
+* [View Live](http://paigeinteractive.com/work/humane-society/index.html)
